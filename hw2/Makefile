@@ -3,7 +3,7 @@ EXEC=main
 
 CC=gcc
 WARN=-Wall -Wextra -Wno-unused-parameter
-CFLAGS=-std=c99 -ggdb3 $(WARN)
+CFLAGS=-std=gnu99 -ggdb3 $(WARN)
 LDFLAGS=
 
 OBJS=$(SRC:.c=.o)
